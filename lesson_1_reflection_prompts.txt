@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    It allowed for me to just go and view the '+' and '-' signs instead
+    of having to read through the thousands of lines of code in each of the files, 
+    where I would have most likely missed the changes anyway. 
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    You can recap your progress and see your initial thoughts and how they have changed
+    along the timeline of your project. It makes for efficiency as you can also learn from earlier changes and not make the same mistakes over and over - that is, you can investigate each iteration, and check how you got to where you are now, (sometimes you may remembera starting point, and have your endpoint, but not remember the path
+    to getting there in between, which version control will help with - seeing each 
+    version, step by step).
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Gives you freedom to ensure that commits are only made at logical changes, which is something that can only be done by you, the coder, manually. 
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    It depends on the application. In google docs, in most cases, one is only working on 
+    a single file at a time - word documents and excel (for example) do not directly relate to each other.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Git log is for viewing all of the commits since init (you can use git log --stat to 
+    see even more info (2 extra lines on insertions and deletions)) and git dif is 
+    used to see the changes between two commits - NOTE: the commits do not have to be 
+    consecutive with git diff!
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    There no longer the concern that the change made is irreversible, once saved. In addition, it is not even difficult to revert to an older commit at any time. 
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    Fill in your answer here
