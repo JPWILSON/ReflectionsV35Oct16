@@ -4,3 +4,6 @@ What happens when you initialize a repository? Why do you need to do it?
 	opportunity to be tracked. One cannot commit changes if the repository
 	has no been initialized - so this step is essential. 
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+	It is a temprary storing point, allowing you to pic which files are going to be 
