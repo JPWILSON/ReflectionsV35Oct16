@@ -1,9 +1,16 @@
 What happens when you initialize a repository? Why do you need to do it?
-
 	A hidden git file is created and all changes will now have the 
 	opportunity to be tracked. One cannot commit changes if the repository
 	has no been initialized - so this step is essential. 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
-
 	It is a temprary storing point, allowing you to pic which files are going to be 
+
+How can you use the staging area to make sure you have one commit per logical change?
+	The staging area allows one to add only the files where the logical changes were done are added. 
+	It also allows for review before commiting by comparing with both the working directory
+	(git diff [no args]) and with the most recent commit (git diff --staged). The files in the 
+	staging area can be moved (only if you are certain that you want to discard the changes)
+	by entering git reset --hard. 
+
+
