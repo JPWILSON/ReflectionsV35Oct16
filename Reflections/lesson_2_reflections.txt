@@ -1,0 +1,6 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	A hidden git file is created and all changes will now have the 
+	opportunity to be tracked. One cannot commit changes if the repository
+	has no been initialized - so this step is essential. 
+
