@@ -20,4 +20,8 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 	They make it simple to see what is going on, and at what point (stage of progress) you are leaving the branch you were on for this new bug fix/ feature. It also allows me to see exactly which commit is the parent, and how the git log will bw displayed. 
 
-
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+	The result is a single branch instead of 2 branches, with the commit history combined, and ordered by timestamp.
+	In order to find the specific changes made in a commit as compared to its parent, the cmd: git show [commit id]
+	The branch that was merged into the main one, should then be deleted (even though its commit history is preserved): git branch -d [deletedbranchName]
+	Also, make sure the main branch that you want merged into is checked out before calling git merge master coins (could also just type git branch coins when master is checked out)
