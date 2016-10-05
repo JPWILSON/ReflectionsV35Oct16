@@ -25,3 +25,8 @@ What is the result of merging two branches together? Why do we represent it in t
 	In order to find the specific changes made in a commit as compared to its parent, the cmd: git show [commit id]
 	The branch that was merged into the main one, should then be deleted (even though its commit history is preserved): git branch -d [deletedbranchName]
 	Also, make sure the main branch that you want merged into is checked out before calling git merge master coins (could also just type git branch coins when master is checked out)
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+	Pros are that it saves time and is clever in how it decides what to merge automatically compared to when it is unsure of how to do this. 
+
+	Cannot really think of a con here.
