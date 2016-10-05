@@ -1,1 +1,7 @@
 When would you want to use a remote repository rather than keeping all your work local?
+	When you:
+	- Work from more than one work station
+	- When you work directly off of GitHub (not often)...
+	- When you collaborate (so there is more than one person making changes to the repo)
+
+
