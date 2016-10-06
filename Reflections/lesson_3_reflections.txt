@@ -17,5 +17,6 @@ Describe the difference between clones, forks and branches? When would you use o
    Cloning can occur in either your local repo or on another repo
  - Branches only occur within a single repo, and are different versions of a project, or part of it. A clone or fork of a repo can have many branches in it.  	
 
-
-
+What is the benefit of having a copy of the last known state of the remote stored locally?
+	This allows you to fetch the changes from your remote and then go through the changes offline (comparing how it looked since last push/ pull (since thats what the origin/master is))
+	and determining if you actually want to merge them into your branch or not.
