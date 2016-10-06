@@ -10,6 +10,12 @@ Why might you want to always pull changes manually rather than having Git automa
 	Git has no way to know when is the right time to keep items up to date. 
 
 Describe the difference between clones, forks and branches? When would you use one instead of the other? 
+ - Forks are for making a clone of another persons repo on GitHub without modifying their repo.
+   Frosk can only be made on GitHub, not in your local repo.
+ - Cloning is when you copy a repo either from internet, GitHub (yours or someone else's account)
+   or from your own computer.
+   Cloning can occur in either your local repo or on another repo
+ - Branches only occur within a single repo, and are different versions of a project, or part of it. A clone or fork of a repo can have many branches in it.  	
 
 
 
