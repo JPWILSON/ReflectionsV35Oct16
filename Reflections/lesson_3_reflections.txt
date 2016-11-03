@@ -11,7 +11,7 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Describe the difference between clones, forks and branches? When would you use one instead of the other? 
  - Forks are for making a clone of another persons repo on GitHub without modifying their repo.
-   Frosk can only be made on GitHub, not in your local repo.
+   Forks can only be made on GitHub, not in your local repo.
  - Cloning is when you copy a repo either from internet, GitHub (yours or someone else's account)
    or from your own computer.
    Cloning can occur in either your local repo or on another repo
